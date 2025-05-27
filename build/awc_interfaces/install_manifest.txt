@@ -1,0 +1,15 @@
+/home/gavin/botani/install/awc_interfaces/share/ament_index/resource_index/package_run_dependencies/awc_interfaces
+/home/gavin/botani/install/awc_interfaces/share/ament_index/resource_index/parent_prefix_path/awc_interfaces
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/environment/ament_prefix_path.sh
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/environment/ament_prefix_path.dsv
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/environment/path.sh
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/environment/path.dsv
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/local_setup.bash
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/local_setup.sh
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/local_setup.zsh
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/local_setup.dsv
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.dsv
+/home/gavin/botani/install/awc_interfaces/share/ament_index/resource_index/packages/awc_interfaces
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/cmake/awc_interfacesConfig.cmake
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/cmake/awc_interfacesConfig-version.cmake
+/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.xml

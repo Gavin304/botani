@@ -1,0 +1,36 @@
+[1.642s] Invoking command in '/home/gavin/botani/src/ros2arduino': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data
+[2.075s] running egg_info
+[2.076s] creating ../../build/ros2arduino/ros2arduino.egg-info
+[2.076s] writing ../../build/ros2arduino/ros2arduino.egg-info/PKG-INFO
+[2.077s] writing dependency_links to ../../build/ros2arduino/ros2arduino.egg-info/dependency_links.txt
+[2.077s] writing entry points to ../../build/ros2arduino/ros2arduino.egg-info/entry_points.txt
+[2.077s] writing requirements to ../../build/ros2arduino/ros2arduino.egg-info/requires.txt
+[2.077s] writing top-level names to ../../build/ros2arduino/ros2arduino.egg-info/top_level.txt
+[2.077s] writing manifest file '../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt'
+[2.080s] reading manifest file '../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt'
+[2.080s] writing manifest file '../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt'
+[2.081s] running build
+[2.081s] running build_py
+[2.081s] creating /home/gavin/botani/build/ros2arduino/build
+[2.081s] creating /home/gavin/botani/build/ros2arduino/build/lib
+[2.081s] creating /home/gavin/botani/build/ros2arduino/build/lib/ros2arduino
+[2.081s] copying ros2arduino/ros2arduino.py -> /home/gavin/botani/build/ros2arduino/build/lib/ros2arduino
+[2.081s] copying ros2arduino/__init__.py -> /home/gavin/botani/build/ros2arduino/build/lib/ros2arduino
+[2.082s] running install
+[2.082s] running install_lib
+[2.083s] creating /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino
+[2.083s] copying /home/gavin/botani/build/ros2arduino/build/lib/ros2arduino/ros2arduino.py -> /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino
+[2.083s] copying /home/gavin/botani/build/ros2arduino/build/lib/ros2arduino/__init__.py -> /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino
+[2.085s] byte-compiling /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino/ros2arduino.py to ros2arduino.cpython-310.pyc
+[2.085s] byte-compiling /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino/__init__.py to __init__.cpython-310.pyc
+[2.085s] running install_data
+[2.086s] creating /home/gavin/botani/install/ros2arduino/share/ament_index
+[2.086s] creating /home/gavin/botani/install/ros2arduino/share/ament_index/resource_index
+[2.086s] creating /home/gavin/botani/install/ros2arduino/share/ament_index/resource_index/packages
+[2.086s] copying resource/ros2arduino -> /home/gavin/botani/install/ros2arduino/share/ament_index/resource_index/packages
+[2.086s] copying package.xml -> /home/gavin/botani/install/ros2arduino/share/ros2arduino
+[2.086s] running install_egg_info
+[2.089s] Copying ../../build/ros2arduino/ros2arduino.egg-info to /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino-0.0.0-py3.10.egg-info
+[2.090s] running install_scripts
+[2.122s] writing list of installed files to '/home/gavin/botani/build/ros2arduino/install.log'
+[2.172s] Invoked command in '/home/gavin/botani/src/ros2arduino' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data

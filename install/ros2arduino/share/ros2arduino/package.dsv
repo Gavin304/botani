@@ -1,0 +1,6 @@
+source;share/ros2arduino/hook/pythonpath.ps1
+source;share/ros2arduino/hook/pythonpath.dsv
+source;share/ros2arduino/hook/pythonpath.sh
+source;share/ros2arduino/hook/ament_prefix_path.ps1
+source;share/ros2arduino/hook/ament_prefix_path.dsv
+source;share/ros2arduino/hook/ament_prefix_path.sh

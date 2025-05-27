@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/ros2yolo/ros2yolo.egg-info
+writing ../../build/ros2yolo/ros2yolo.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2yolo/ros2yolo.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2yolo/ros2yolo.egg-info/entry_points.txt
+writing requirements to ../../build/ros2yolo/ros2yolo.egg-info/requires.txt
+writing top-level names to ../../build/ros2yolo/ros2yolo.egg-info/top_level.txt
+writing manifest file '../../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gavin/botani/build/ros2yolo/build
+creating /home/gavin/botani/build/ros2yolo/build/lib
+creating /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/ros2yolo.py -> /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/__init__.py -> /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/prompt.txt -> /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo
+running install
+running install_lib
+creating /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo
+copying /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo/ros2yolo.py -> /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo
+copying /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo/prompt.txt -> /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo
+copying /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo/__init__.py -> /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo
+byte-compiling /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo/ros2yolo.py to ros2yolo.cpython-310.pyc
+byte-compiling /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/gavin/botani/install/ros2yolo/share/ament_index
+creating /home/gavin/botani/install/ros2yolo/share/ament_index/resource_index
+creating /home/gavin/botani/install/ros2yolo/share/ament_index/resource_index/packages
+copying resource/ros2yolo -> /home/gavin/botani/install/ros2yolo/share/ament_index/resource_index/packages
+copying package.xml -> /home/gavin/botani/install/ros2yolo/share/ros2yolo
+running install_egg_info
+Copying ../../build/ros2yolo/ros2yolo.egg-info to /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ros2yolo script to /home/gavin/botani/install/ros2yolo/lib/ros2yolo
+writing list of installed files to '/home/gavin/botani/build/ros2yolo/install.log'

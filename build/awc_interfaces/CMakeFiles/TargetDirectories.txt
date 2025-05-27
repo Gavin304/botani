@@ -1,0 +1,9 @@
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/uninstall.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/awc_interfaces_uninstall.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/test.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/edit_cache.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/rebuild_cache.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/list_install_components.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/install.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/install/local.dir
+/home/gavin/botani/build/awc_interfaces/CMakeFiles/install/strip.dir

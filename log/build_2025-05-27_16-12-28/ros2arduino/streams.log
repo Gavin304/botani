@@ -1,0 +1,20 @@
+[1.607s] Invoking command in '/home/gavin/botani/src/ros2arduino': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data
+[1.979s] running egg_info
+[1.980s] writing ../../build/ros2arduino/ros2arduino.egg-info/PKG-INFO
+[1.981s] writing dependency_links to ../../build/ros2arduino/ros2arduino.egg-info/dependency_links.txt
+[1.981s] writing entry points to ../../build/ros2arduino/ros2arduino.egg-info/entry_points.txt
+[1.981s] writing requirements to ../../build/ros2arduino/ros2arduino.egg-info/requires.txt
+[1.981s] writing top-level names to ../../build/ros2arduino/ros2arduino.egg-info/top_level.txt
+[1.984s] reading manifest file '../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt'
+[1.985s] writing manifest file '../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt'
+[1.985s] running build
+[1.985s] running build_py
+[1.985s] running install
+[1.986s] running install_lib
+[1.988s] running install_data
+[1.988s] running install_egg_info
+[1.990s] removing '/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino-0.0.0-py3.10.egg-info' (and everything under it)
+[1.991s] Copying ../../build/ros2arduino/ros2arduino.egg-info to /home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages/ros2arduino-0.0.0-py3.10.egg-info
+[1.992s] running install_scripts
+[2.022s] writing list of installed files to '/home/gavin/botani/build/ros2arduino/install.log'
+[2.063s] Invoked command in '/home/gavin/botani/src/ros2arduino' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data

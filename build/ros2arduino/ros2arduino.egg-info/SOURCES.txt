@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ros2arduino/ros2arduino.egg-info/PKG-INFO
+../../build/ros2arduino/ros2arduino.egg-info/SOURCES.txt
+../../build/ros2arduino/ros2arduino.egg-info/dependency_links.txt
+../../build/ros2arduino/ros2arduino.egg-info/entry_points.txt
+../../build/ros2arduino/ros2arduino.egg-info/requires.txt
+../../build/ros2arduino/ros2arduino.egg-info/top_level.txt
+../../build/ros2arduino/ros2arduino.egg-info/zip-safe
+resource/ros2arduino
+ros2arduino/__init__.py
+ros2arduino/ros2arduino.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

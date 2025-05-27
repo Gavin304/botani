@@ -1,0 +1,248 @@
+[0.156s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.156s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70d6949978b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70d694996ef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70d694996ef0>>, mixin_verb=('build',))
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.396s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gavin/botani'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/awc_interfaces) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/awc_interfaces' with type 'ros.ament_cmake' and name 'awc_interfaces'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2arduino) by extension 'ros'
+[0.428s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2arduino' with type 'ros.ament_python' and name 'ros2arduino'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2yolo) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2yolo' with type 'ros.ament_python' and name 'ros2yolo'
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.456s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gavin/botani/install/ros2yolo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.457s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gavin/botani/install/ros2arduino' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.457s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gavin/botani/install/awc_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.461s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/gavin/botani/install/awc_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.463s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/gavin/botani/install
+[0.463s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gavin/minimec/install
+[0.464s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gavin/minimec/src/install
+[0.468s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 132 installed packages in /home/gavin/install
+[0.472s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.548s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.548s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.548s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.548s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.548s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'awc_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.549s] DEBUG:colcon.colcon_core.verb:Building package 'awc_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/botani/build/awc_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/botani/install/awc_interfaces', 'merge_install': False, 'path': '/home/gavin/botani/src/awc_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_target' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'ros2arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.549s] DEBUG:colcon.colcon_core.verb:Building package 'ros2arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/botani/build/ros2arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/botani/install/ros2arduino', 'merge_install': False, 'path': '/home/gavin/botani/src/ros2arduino', 'symlink_install': False, 'test_result_base': None}
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.550s] DEBUG:colcon.colcon_core.verb:Building package 'ros2yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gavin/botani/build/ros2yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gavin/botani/install/ros2yolo', 'merge_install': False, 'path': '/home/gavin/botani/src/ros2yolo', 'symlink_install': False, 'test_result_base': None}
+[0.550s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.551s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gavin/botani/src/awc_interfaces' with build type 'ament_cmake'
+[0.552s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gavin/botani/src/awc_interfaces'
+[0.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.570s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gavin/botani/src/ros2arduino' with build type 'ament_python'
+[0.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2arduino', 'ament_prefix_path')
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/ament_prefix_path.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/ament_prefix_path.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/ament_prefix_path.sh'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gavin/botani/src/ros2yolo' with build type 'ament_python'
+[0.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2yolo', 'ament_prefix_path')
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/botani/build/awc_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/gavin/botani/src/awc_interfaces -DCMAKE_INSTALL_PREFIX=/home/gavin/botani/install/awc_interfaces
+[1.125s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gavin/botani/src/ros2arduino'
+[1.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.559s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gavin/botani/src/ros2yolo'
+[1.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/botani/src/ros2arduino': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data
+[2.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/botani/src/ros2yolo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2yolo build --build-base /home/gavin/botani/build/ros2yolo/build install --record /home/gavin/botani/build/ros2yolo/install.log --single-version-externally-managed install_data
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/botani/build/awc_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/gavin/botani/src/awc_interfaces -DCMAKE_INSTALL_PREFIX=/home/gavin/botani/install/awc_interfaces
+[2.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/botani/build/awc_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/gavin/botani/build/awc_interfaces -- -j8 -l8
+[2.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/botani/build/awc_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/gavin/botani/build/awc_interfaces -- -j8 -l8
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gavin/botani/build/awc_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/gavin/botani/build/awc_interfaces
+[2.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(awc_interfaces)
+[2.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/botani/build/awc_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gavin/botani/install/ros2yolo:/home/gavin/botani/install/ros2arduino:/home/gavin/minimec/install/wheeltec_control:/home/gavin/minimec/install/mini_mec_localization:/home/gavin/minimec/src/install/wheeltec_control:/home/gavin/minimec/src/install/mini_mec_localization:/home/gavin/install/ament_uncrustify:/home/gavin/install/tracetools_trace:/home/gavin/install/tracetools_read:/home/gavin/install/rpyutils:/home/gavin/install/rosidl_cli:/home/gavin/install/launch_pytest:/home/gavin/install/launch_testing:/home/gavin/install/launch_yaml:/home/gavin/install/launch_xml:/home/gavin/install/launch:/home/gavin/install/osrf_pycommon:/home/gavin/install/domain_coordinator:/home/gavin/install/ament_xmllint:/home/gavin/install/ament_pyflakes:/home/gavin/install/ament_pycodestyle:/home/gavin/install/ament_pep257:/home/gavin/install/ament_pclint:/home/gavin/install/ament_package:/home/gavin/install/ament_mypy:/home/gavin/install/ament_lint_cmake:/home/gavin/install/ament_flake8:/home/gavin/install/ament_copyright:/home/gavin/install/ament_lint:/home/gavin/install/ament_index_python:/home/gavin/install/ament_cpplint:/home/gavin/install/ament_cppcheck:/home/gavin/install/ament_clang_tidy:/home/gavin/install/ament_clang_format:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/gavin/botani/build/awc_interfaces
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces' for CMake module files
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces' for CMake config files
+[2.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('awc_interfaces', 'cmake_prefix_path')
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.ps1'
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.sh'
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/bin'
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/lib/pkgconfig/awc_interfaces.pc'
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/lib/python3.10/site-packages'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/bin'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.sh'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.bash'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.zsh'
+[2.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/botani/install/awc_interfaces/share/colcon-core/packages/awc_interfaces)
+[2.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(awc_interfaces)
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces' for CMake module files
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces' for CMake config files
+[2.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('awc_interfaces', 'cmake_prefix_path')
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.ps1'
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.dsv'
+[2.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/hook/cmake_prefix_path.sh'
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/bin'
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/lib/pkgconfig/awc_interfaces.pc'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/lib/python3.10/site-packages'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/awc_interfaces/bin'
+[2.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.ps1'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.dsv'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.sh'
+[2.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.bash'
+[2.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/awc_interfaces/share/awc_interfaces/package.zsh'
+[2.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/botani/install/awc_interfaces/share/colcon-core/packages/awc_interfaces)
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino' for CMake module files
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/botani/src/ros2arduino' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2arduino build --build-base /home/gavin/botani/build/ros2arduino/build install --record /home/gavin/botani/build/ros2arduino/install.log --single-version-externally-managed install_data
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino' for CMake config files
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino/lib'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino/bin'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino/lib/pkgconfig/ros2arduino.pc'
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino/lib/python3.10/site-packages'
+[2.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2arduino', 'pythonpath')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/pythonpath.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/pythonpath.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2arduino/share/ros2arduino/hook/pythonpath.sh'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2arduino/bin'
+[2.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2arduino)
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2arduino/share/ros2arduino/package.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/botani/install/ros2arduino/share/ros2arduino/package.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2arduino/share/ros2arduino/package.sh'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2arduino/share/ros2arduino/package.bash'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2arduino/share/ros2arduino/package.zsh'
+[2.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/botani/install/ros2arduino/share/colcon-core/packages/ros2arduino)
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo' for CMake module files
+[2.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gavin/botani/src/ros2yolo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2yolo build --build-base /home/gavin/botani/build/ros2yolo/build install --record /home/gavin/botani/build/ros2yolo/install.log --single-version-externally-managed install_data
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo' for CMake config files
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo/lib'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo/bin'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo/lib/pkgconfig/ros2yolo.pc'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages'
+[2.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2yolo', 'pythonpath')
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/pythonpath.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/pythonpath.dsv'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gavin/botani/install/ros2yolo/share/ros2yolo/hook/pythonpath.sh'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/gavin/botani/install/ros2yolo/bin'
+[2.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2yolo)
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2yolo/share/ros2yolo/package.ps1'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gavin/botani/install/ros2yolo/share/ros2yolo/package.dsv'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2yolo/share/ros2yolo/package.sh'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2yolo/share/ros2yolo/package.bash'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/gavin/botani/install/ros2yolo/share/ros2yolo/package.zsh'
+[2.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gavin/botani/install/ros2yolo/share/colcon-core/packages/ros2yolo)
+[2.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.774s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.794s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.794s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.794s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/botani/install/local_setup.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gavin/botani/install/_local_setup_util_ps1.py'
+[2.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/botani/install/setup.ps1'
+[2.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/botani/install/local_setup.sh'
+[2.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gavin/botani/install/_local_setup_util_sh.py'
+[2.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/botani/install/setup.sh'
+[2.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/botani/install/local_setup.bash'
+[2.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/botani/install/setup.bash'
+[2.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gavin/botani/install/local_setup.zsh'
+[2.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gavin/botani/install/setup.zsh'

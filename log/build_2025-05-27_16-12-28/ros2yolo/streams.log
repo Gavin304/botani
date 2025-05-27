@@ -1,0 +1,24 @@
+[1.599s] Invoking command in '/home/gavin/botani/src/ros2yolo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2yolo build --build-base /home/gavin/botani/build/ros2yolo/build install --record /home/gavin/botani/build/ros2yolo/install.log --single-version-externally-managed install_data
+[1.975s] running egg_info
+[1.976s] writing ../../build/ros2yolo/ros2yolo.egg-info/PKG-INFO
+[1.977s] writing dependency_links to ../../build/ros2yolo/ros2yolo.egg-info/dependency_links.txt
+[1.977s] writing entry points to ../../build/ros2yolo/ros2yolo.egg-info/entry_points.txt
+[1.978s] writing requirements to ../../build/ros2yolo/ros2yolo.egg-info/requires.txt
+[1.978s] writing top-level names to ../../build/ros2yolo/ros2yolo.egg-info/top_level.txt
+[1.980s] reading manifest file '../../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+[1.981s] writing manifest file '../../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+[1.982s] running build
+[1.982s] running build_py
+[1.982s] copying ros2yolo/ros2yolo.py -> /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo
+[1.982s] running install
+[1.983s] running install_lib
+[1.984s] copying /home/gavin/botani/build/ros2yolo/build/lib/ros2yolo/ros2yolo.py -> /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo
+[1.986s] byte-compiling /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo/ros2yolo.py to ros2yolo.cpython-310.pyc
+[1.987s] running install_data
+[1.987s] running install_egg_info
+[1.991s] removing '/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.991s] Copying ../../build/ros2yolo/ros2yolo.egg-info to /home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages/ros2yolo-0.0.0-py3.10.egg-info
+[1.992s] running install_scripts
+[2.021s] Installing ros2yolo script to /home/gavin/botani/install/ros2yolo/lib/ros2yolo
+[2.022s] writing list of installed files to '/home/gavin/botani/build/ros2yolo/install.log'
+[2.063s] Invoked command in '/home/gavin/botani/src/ros2yolo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/gavin/botani/build/ros2yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gavin/botani/install/ros2yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2yolo build --build-base /home/gavin/botani/build/ros2yolo/build install --record /home/gavin/botani/build/ros2yolo/install.log --single-version-externally-managed install_data
